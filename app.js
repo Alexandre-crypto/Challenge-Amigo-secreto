@@ -10,7 +10,7 @@ function adicionarAmigo() {
     }
 
     amigos.push(nome);
-    console.log("Amigos:", amigos); // Exibir no Console
+    console.log("Amigos:", amigos); // Exibir nomes no Console
     input.value = "";
     atualizarLista();
 }
